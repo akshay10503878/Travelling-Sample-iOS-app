@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30652BA91F9FD0B300259C7D /* LocationManagerSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30652BA81F9FD0B300259C7D /* LocationManagerSingleton.m */; };
+		30652BAC1F9FD81900259C7D /* ImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30652BAB1F9FD81900259C7D /* ImageCacheManager.m */; };
+		30D19F6D1F9612430068EFC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19F6C1F9612430068EFC9 /* AppDelegate.m */; };
+		30D19F731F9612430068EFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D19F711F9612430068EFC9 /* Main.storyboard */; };
+		30D19F751F9612430068EFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D19F741F9612430068EFC9 /* Assets.xcassets */; };
+		30D19F781F9612430068EFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D19F761F9612430068EFC9 /* LaunchScreen.storyboard */; };
+		30D19F7B1F9612430068EFC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19F7A1F9612430068EFC9 /* main.m */; };
+		30D19F851F9612430068EFC9 /* It_sLondonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19F841F9612430068EFC9 /* It_sLondonTests.m */; };
+		30D19F901F9612430068EFC9 /* It_sLondonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19F8F1F9612430068EFC9 /* It_sLondonUITests.m */; };
+		30D19FA01F9615E10068EFC9 /* DesinableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19F9F1F9615E10068EFC9 /* DesinableButton.m */; };
+		30D19FA61F961C020068EFC9 /* PlaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19FA51F961C020068EFC9 /* PlaceInfo.m */; };
+		30D19FAC1F961D170068EFC9 /* LandMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19FAB1F961D170068EFC9 /* LandMarkViewController.m */; };
+		30D19FAF1F97E1B80068EFC9 /* PlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19FAE1F97E1B80068EFC9 /* PlaceCell.m */; };
+		30D19FFA1F9F68600068EFC9 /* LandMarkDetalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19FF91F9F68600068EFC9 /* LandMarkDetalVC.m */; };
+		30D19FFD1F9FA7690068EFC9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D19FFC1F9FA7690068EFC9 /* MapViewController.m */; };
+		30D1A0001F9FAAB30068EFC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D19FFF1F9FAAB30068EFC9 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30D19F811F9612430068EFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D19F601F9612420068EFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D19F671F9612430068EFC9;
+			remoteInfo = "It'sLondon";
+		};
+		30D19F8C1F9612430068EFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D19F601F9612420068EFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D19F671F9612430068EFC9;
+			remoteInfo = "It'sLondon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30652BA71F9FD0B200259C7D /* LocationManagerSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManagerSingleton.h; sourceTree = "<group>"; };
+		30652BA81F9FD0B300259C7D /* LocationManagerSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManagerSingleton.m; sourceTree = "<group>"; };
+		30652BAA1F9FD81900259C7D /* ImageCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCacheManager.h; sourceTree = "<group>"; };
+		30652BAB1F9FD81900259C7D /* ImageCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCacheManager.m; sourceTree = "<group>"; };
+		30D19F681F9612430068EFC9 /* It'sLondon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "It'sLondon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D19F6B1F9612430068EFC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30D19F6C1F9612430068EFC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30D19F721F9612430068EFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30D19F741F9612430068EFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D19F771F9612430068EFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30D19F791F9612430068EFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D19F7A1F9612430068EFC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30D19F801F9612430068EFC9 /* It'sLondonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "It'sLondonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D19F841F9612430068EFC9 /* It_sLondonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = It_sLondonTests.m; sourceTree = "<group>"; };
+		30D19F861F9612430068EFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D19F8B1F9612430068EFC9 /* It'sLondonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "It'sLondonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D19F8F1F9612430068EFC9 /* It_sLondonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = It_sLondonUITests.m; sourceTree = "<group>"; };
+		30D19F911F9612430068EFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D19F9E1F9615E10068EFC9 /* DesinableButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesinableButton.h; sourceTree = "<group>"; };
+		30D19F9F1F9615E10068EFC9 /* DesinableButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesinableButton.m; sourceTree = "<group>"; };
+		30D19FA41F961C020068EFC9 /* PlaceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceInfo.h; sourceTree = "<group>"; };
+		30D19FA51F961C020068EFC9 /* PlaceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceInfo.m; sourceTree = "<group>"; };
+		30D19FAA1F961D170068EFC9 /* LandMarkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandMarkViewController.h; sourceTree = "<group>"; };
+		30D19FAB1F961D170068EFC9 /* LandMarkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandMarkViewController.m; sourceTree = "<group>"; };
+		30D19FAD1F97E1B80068EFC9 /* PlaceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceCell.h; sourceTree = "<group>"; };
+		30D19FAE1F97E1B80068EFC9 /* PlaceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceCell.m; sourceTree = "<group>"; };
+		30D19FF81F9F68600068EFC9 /* LandMarkDetalVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandMarkDetalVC.h; sourceTree = "<group>"; };
+		30D19FF91F9F68600068EFC9 /* LandMarkDetalVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandMarkDetalVC.m; sourceTree = "<group>"; };
+		30D19FFB1F9FA7690068EFC9 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		30D19FFC1F9FA7690068EFC9 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		30D19FFF1F9FAAB30068EFC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D19F651F9612430068EFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D1A0001F9FAAB30068EFC9 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D19F7D1F9612430068EFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D19F881F9612430068EFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30652BAD1F9FDE8300259C7D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				30D19F6B1F9612430068EFC9 /* AppDelegate.h */,
+				30D19F6C1F9612430068EFC9 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		30652BAE1F9FDE9B00259C7D /* LandmarkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30D19FAA1F961D170068EFC9 /* LandMarkViewController.h */,
+				30D19FAB1F961D170068EFC9 /* LandMarkViewController.m */,
+				30652BB11F9FDF2D00259C7D /* PlaceCell */,
+			);
+			path = LandmarkViewController;
+			sourceTree = "<group>";
+		};
+		30652BAF1F9FDEAF00259C7D /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				30D19FA41F961C020068EFC9 /* PlaceInfo.h */,
+				30D19FA51F961C020068EFC9 /* PlaceInfo.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		30652BB01F9FDF0A00259C7D /* LandMarkDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				30D19FF81F9F68600068EFC9 /* LandMarkDetalVC.h */,
+				30D19FF91F9F68600068EFC9 /* LandMarkDetalVC.m */,
+			);
+			path = LandMarkDetailVC;
+			sourceTree = "<group>";
+		};
+		30652BB11F9FDF2D00259C7D /* PlaceCell */ = {
+			isa = PBXGroup;
+			children = (
+				30D19FAD1F97E1B80068EFC9 /* PlaceCell.h */,
+				30D19FAE1F97E1B80068EFC9 /* PlaceCell.m */,
+			);
+			path = PlaceCell;
+			sourceTree = "<group>";
+		};
+		30652BB21F9FDF4600259C7D /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				30652BA71F9FD0B200259C7D /* LocationManagerSingleton.h */,
+				30652BA81F9FD0B300259C7D /* LocationManagerSingleton.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		30652BB31F9FDF5400259C7D /* ImageCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				30652BAA1F9FD81900259C7D /* ImageCacheManager.h */,
+				30652BAB1F9FD81900259C7D /* ImageCacheManager.m */,
+			);
+			path = ImageCacheManager;
+			sourceTree = "<group>";
+		};
+		30652BB41F9FDF6200259C7D /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30D19FFB1F9FA7690068EFC9 /* MapViewController.h */,
+				30D19FFC1F9FA7690068EFC9 /* MapViewController.m */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		30D19F5F1F9612420068EFC9 = {
+			isa = PBXGroup;
+			children = (
+				30D19F6A1F9612430068EFC9 /* It'sLondon */,
+				30D19F831F9612430068EFC9 /* It'sLondonTests */,
+				30D19F8E1F9612430068EFC9 /* It'sLondonUITests */,
+				30D19F691F9612430068EFC9 /* Products */,
+				30D19FFE1F9FAAB30068EFC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30D19F691F9612430068EFC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D19F681F9612430068EFC9 /* It'sLondon.app */,
+				30D19F801F9612430068EFC9 /* It'sLondonTests.xctest */,
+				30D19F8B1F9612430068EFC9 /* It'sLondonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D19F6A1F9612430068EFC9 /* It'sLondon */ = {
+			isa = PBXGroup;
+			children = (
+				30652BAE1F9FDE9B00259C7D /* LandmarkViewController */,
+				30652BB01F9FDF0A00259C7D /* LandMarkDetailVC */,
+				30652BB41F9FDF6200259C7D /* MapViewController */,
+				30652BB31F9FDF5400259C7D /* ImageCacheManager */,
+				30652BB21F9FDF4600259C7D /* LocationManager */,
+				30652BAF1F9FDEAF00259C7D /* DataModel */,
+				30652BAD1F9FDE8300259C7D /* AppDelegate */,
+				30D19F9D1F9615B80068EFC9 /* IBDesinableButton */,
+				30D19F711F9612430068EFC9 /* Main.storyboard */,
+				30D19F741F9612430068EFC9 /* Assets.xcassets */,
+				30D19F761F9612430068EFC9 /* LaunchScreen.storyboard */,
+				30D19F791F9612430068EFC9 /* Info.plist */,
+				30D19F7A1F9612430068EFC9 /* main.m */,
+			);
+			path = "It'sLondon";
+			sourceTree = "<group>";
+		};
+		30D19F831F9612430068EFC9 /* It'sLondonTests */ = {
+			isa = PBXGroup;
+			children = (
+				30D19F841F9612430068EFC9 /* It_sLondonTests.m */,
+				30D19F861F9612430068EFC9 /* Info.plist */,
+			);
+			path = "It'sLondonTests";
+			sourceTree = "<group>";
+		};
+		30D19F8E1F9612430068EFC9 /* It'sLondonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30D19F8F1F9612430068EFC9 /* It_sLondonUITests.m */,
+				30D19F911F9612430068EFC9 /* Info.plist */,
+			);
+			path = "It'sLondonUITests";
+			sourceTree = "<group>";
+		};
+		30D19F9D1F9615B80068EFC9 /* IBDesinableButton */ = {
+			isa = PBXGroup;
+			children = (
+				30D19F9E1F9615E10068EFC9 /* DesinableButton.h */,
+				30D19F9F1F9615E10068EFC9 /* DesinableButton.m */,
+			);
+			path = IBDesinableButton;
+			sourceTree = "<group>";
+		};
+		30D19FFE1F9FAAB30068EFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30D19FFF1F9FAAB30068EFC9 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D19F671F9612430068EFC9 /* It'sLondon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D19F941F9612430068EFC9 /* Build configuration list for PBXNativeTarget "It'sLondon" */;
+			buildPhases = (
+				30D19F641F9612430068EFC9 /* Sources */,
+				30D19F651F9612430068EFC9 /* Frameworks */,
+				30D19F661F9612430068EFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "It'sLondon";
+			productName = "It'sLondon";
+			productReference = 30D19F681F9612430068EFC9 /* It'sLondon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30D19F7F1F9612430068EFC9 /* It'sLondonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D19F971F9612430068EFC9 /* Build configuration list for PBXNativeTarget "It'sLondonTests" */;
+			buildPhases = (
+				30D19F7C1F9612430068EFC9 /* Sources */,
+				30D19F7D1F9612430068EFC9 /* Frameworks */,
+				30D19F7E1F9612430068EFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D19F821F9612430068EFC9 /* PBXTargetDependency */,
+			);
+			name = "It'sLondonTests";
+			productName = "It'sLondonTests";
+			productReference = 30D19F801F9612430068EFC9 /* It'sLondonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30D19F8A1F9612430068EFC9 /* It'sLondonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D19F9A1F9612430068EFC9 /* Build configuration list for PBXNativeTarget "It'sLondonUITests" */;
+			buildPhases = (
+				30D19F871F9612430068EFC9 /* Sources */,
+				30D19F881F9612430068EFC9 /* Frameworks */,
+				30D19F891F9612430068EFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D19F8D1F9612430068EFC9 /* PBXTargetDependency */,
+			);
+			name = "It'sLondonUITests";
+			productName = "It'sLondonUITests";
+			productReference = 30D19F8B1F9612430068EFC9 /* It'sLondonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D19F601F9612420068EFC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "akshay bansal";
+				TargetAttributes = {
+					30D19F671F9612430068EFC9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					30D19F7F1F9612430068EFC9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30D19F671F9612430068EFC9;
+					};
+					30D19F8A1F9612430068EFC9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30D19F671F9612430068EFC9;
+					};
+				};
+			};
+			buildConfigurationList = 30D19F631F9612430068EFC9 /* Build configuration list for PBXProject "It'sLondon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D19F5F1F9612420068EFC9;
+			productRefGroup = 30D19F691F9612430068EFC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D19F671F9612430068EFC9 /* It'sLondon */,
+				30D19F7F1F9612430068EFC9 /* It'sLondonTests */,
+				30D19F8A1F9612430068EFC9 /* It'sLondonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D19F661F9612430068EFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D19F781F9612430068EFC9 /* LaunchScreen.storyboard in Resources */,
+				30D19F751F9612430068EFC9 /* Assets.xcassets in Resources */,
+				30D19F731F9612430068EFC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D19F7E1F9612430068EFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D19F891F9612430068EFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D19F641F9612430068EFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D19FAF1F97E1B80068EFC9 /* PlaceCell.m in Sources */,
+				30D19F7B1F9612430068EFC9 /* main.m in Sources */,
+				30D19F6D1F9612430068EFC9 /* AppDelegate.m in Sources */,
+				30652BAC1F9FD81900259C7D /* ImageCacheManager.m in Sources */,
+				30D19FFA1F9F68600068EFC9 /* LandMarkDetalVC.m in Sources */,
+				30D19FAC1F961D170068EFC9 /* LandMarkViewController.m in Sources */,
+				30D19FFD1F9FA7690068EFC9 /* MapViewController.m in Sources */,
+				30652BA91F9FD0B300259C7D /* LocationManagerSingleton.m in Sources */,
+				30D19FA01F9615E10068EFC9 /* DesinableButton.m in Sources */,
+				30D19FA61F961C020068EFC9 /* PlaceInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D19F7C1F9612430068EFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D19F851F9612430068EFC9 /* It_sLondonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D19F871F9612430068EFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D19F901F9612430068EFC9 /* It_sLondonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30D19F821F9612430068EFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D19F671F9612430068EFC9 /* It'sLondon */;
+			targetProxy = 30D19F811F9612430068EFC9 /* PBXContainerItemProxy */;
+		};
+		30D19F8D1F9612430068EFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D19F671F9612430068EFC9 /* It'sLondon */;
+			targetProxy = 30D19F8C1F9612430068EFC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30D19F711F9612430068EFC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D19F721F9612430068EFC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30D19F761F9612430068EFC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D19F771F9612430068EFC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D19F921F9612430068EFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30D19F931F9612430068EFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D19F951F9612430068EFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = "It'sLondon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akshay.It-sLondon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D19F961F9612430068EFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = "It'sLondon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akshay.It-sLondon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30D19F981F9612430068EFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = "It'sLondonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akshay.It-sLondonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/It'sLondon.app/It'sLondon";
+			};
+			name = Debug;
+		};
+		30D19F991F9612430068EFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = "It'sLondonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akshay.It-sLondonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/It'sLondon.app/It'sLondon";
+			};
+			name = Release;
+		};
+		30D19F9B1F9612430068EFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = "It'sLondonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akshay.It-sLondonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "It'sLondon";
+			};
+			name = Debug;
+		};
+		30D19F9C1F9612430068EFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = "It'sLondonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akshay.It-sLondonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "It'sLondon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D19F631F9612430068EFC9 /* Build configuration list for PBXProject "It'sLondon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D19F921F9612430068EFC9 /* Debug */,
+				30D19F931F9612430068EFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D19F941F9612430068EFC9 /* Build configuration list for PBXNativeTarget "It'sLondon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D19F951F9612430068EFC9 /* Debug */,
+				30D19F961F9612430068EFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D19F971F9612430068EFC9 /* Build configuration list for PBXNativeTarget "It'sLondonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D19F981F9612430068EFC9 /* Debug */,
+				30D19F991F9612430068EFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D19F9A1F9612430068EFC9 /* Build configuration list for PBXNativeTarget "It'sLondonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D19F9B1F9612430068EFC9 /* Debug */,
+				30D19F9C1F9612430068EFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D19F601F9612420068EFC9 /* Project object */;
+}
